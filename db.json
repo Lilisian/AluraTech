@@ -1,12 +1,6 @@
 {
   "productos": [
     {
-      "id": "3",
-      "nombre": "Ipad Pro",
-      "precio": 800,
-      "imagen": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MTP32?wid=2000&hei=2000&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1616604204000"
-    },
-    {
       "id": "4",
       "nombre": "Apple Watch",
       "precio": 400,
