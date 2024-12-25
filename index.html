@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+</head>
+<body>
+    <header>
+        <h1>AluraGeek</h1>
+    </header>
+    
+    <div class="container">
+        <section class="products-list">
+            <h2>Mis productos</h2>
+            <div class="products-container" data-productos>
+            </div>
+        </section>
+
+        <section class="add-product">
+            <h2>Agregar producto</h2>
+            <form action="adiciona-produto.php" method="post" data-formulario>
+                <label for="produto">Producto:</label>
+                <input type="text" name="produto" id="produto" data-nombre>
+                <label for="preco">Precio:</label>
+                <input type="text" name="precio" id="precio" data-precio>
+                <label for="imagen">Imagen:</label>
+                <input type="text" name="imagen" id="imagen" data-imagen>
+                <div class="form-buttons">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpiar</button>
+                </div>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>AluraGeek</p>
+        <p>Desarrollado por Silvia Candia</p>
+        <p>2024</p>
+    </footer>
+    <script src="./js/mostrarProductos.js" type="module"></script>
+    <script src="./js/crearProducto.js" type="module"></script>
+</body>
+
+
+
+
+
+</html>

@@ -1,0 +1,244 @@
+:root {
+    --verde: #3E563E;
+    --blanco: #FFFDEC;
+    --rojo: #9E0000;
+    --azul: #395665;
+    --fondo: #f4f4f4;
+    --letra: 'Courier New', Courier, monospace;
+}
+
+body {
+    font-family: var(--letra);
+    margin: 0;
+    padding: 0;
+    background-color:var(--fondo);
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    background-color: var(--verde);
+    color: var(--blanco);
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+section {
+    padding: 2rem;
+}
+section h2 {
+    color: var(--azul);
+    border-bottom: 2px solid var(--azul);
+    padding-bottom: 0.5rem;
+}
+ 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 6rem;
+}
+
+.products-list {
+    flex: 0 0 50%;
+    margin: 1rem;
+}
+
+.add-product {
+    flex: 0 0 28%;
+    margin: 1rem;
+}
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    max-height: 500px; /* Adjust the height as needed */
+    overflow-y: auto; /* Adds vertical scrollbar */
+}
+.product-card {
+    flex: 0 0 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: var(--blanco);
+    text-align: center;
+    width: 100px;
+    height: 278px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.product-card h3 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+.product-card img {
+    max-width: 70%;
+    height: auto;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.product-card p {
+    font-size: 1rem;
+    color: var(--azul);
+    margin: 0.5rem 0 0;
+}
+
+
+.add-product form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-product label {
+    margin-top: 0.5rem;
+}
+
+.add-product input, .add-product button {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid var(--fondo);
+    border-radius: 30px;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.form-buttons button {
+    flex: 1;
+    margin-right: 0.5rem;
+}
+
+.form-buttons button:last-child {
+    margin-right: 0;
+}
+
+.add-product button {
+    background-color: var(--azul);
+    color: var(--blanco);
+    cursor: pointer;
+    padding: 0.75rem;
+}
+
+.add-product button:hover {
+    background-color: var(--rojo);
+}
+
+footer {
+    background-color: var(--verde);
+    color: var(--blanco);
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0.2rem 0;
+}
+@media screen and (max-width: 1024px) {
+    .products-list, .add-product {
+        flex: 0 100%;
+    }
+
+    .products-list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .product-card {
+        flex: 0 0 48%;
+        width: auto;
+    }
+
+    .product-card img {
+        max-width: 50%;
+        height: auto;
+    }
+
+    .form-buttons {
+        flex-direction: column;
+    }
+
+    .form-buttons button {
+        margin-right: 0;
+        margin-bottom: 0.5rem;
+    }
+
+    .form-buttons button:last-child {
+        margin-bottom: 0;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .products-list, .add-product {
+        flex: 0 100%;
+    }
+
+    .products-list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .product-card {
+        flex: 0 0 48%;
+        width: auto;
+    }
+
+    .product-card img {
+        max-width: 50%;
+        height: auto;
+    }
+
+    .form-buttons {
+        flex-direction: column;
+    }
+
+    .form-buttons button {
+        margin-right: 0;
+        margin-bottom: 0.5rem;
+    }
+
+    .form-buttons button:last-child {
+        margin-bottom: 0;
+    }
+}
+@media (max-width: 480px) {
+
+    .product-card {
+        flex: 0 0 100%; /* Ocupar todo el ancho */
+        margin: 0 auto; /* Centrar */
+        padding: 0.5rem; /* Espaciado interno */
+    }
+
+    .product-card img {
+        max-width: 60%;
+        height: auto;
+        margin: 0 auto; /* Centrar la imagen */
+    }
+    .add-product {
+        flex: none;
+        margin: 0 auto;
+    }
+    section {
+        padding: 1rem;
+    }
+    
+
+    
+
+    
+}

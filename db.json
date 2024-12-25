@@ -1,0 +1,76 @@
+{
+  "productos": [
+    {
+      "id": "3",
+      "nombre": "Ipad Pro",
+      "precio": 800,
+      "imagen": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MTP32?wid=2000&hei=2000&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1616604204000"
+    },
+    {
+      "id": "4",
+      "nombre": "Apple Watch",
+      "precio": 400,
+      "imagen": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MTP32?wid=2000&hei=2000&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1616604204000"
+    },
+    {
+      "id": "5",
+      "nombre": "Airpods Pro",
+      "precio": 200,
+      "imagen": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MWP22?wid=2000&hei=2000&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1616207704000"
+    },
+    {
+      "id": "6",
+      "nombre": "Mac Mini",
+      "precio": 700,
+      "imagen": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/apple-tv-4k-hero-select-202104_FMT_WHH?wid=2000&hei=2000&fmt=jpeg&qlt=95&.v=1618007138000"
+    },
+    {
+      "id": "7",
+      "nombre": "Apple TV",
+      "precio": 200,
+      "imagen": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/apple-tv-4k-hero-select-202104_FMT_WHH?wid=2000&hei=2000&fmt=jpeg&qlt=95&.v=1618007138000"
+    },
+    {
+      "id": "8",
+      "nombre": "HomePod Mini",
+      "precio": 100,
+      "imagen": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/apple-tv-4k-hero-select-202104_FMT_WHH?wid=2000&hei=2000&fmt=jpeg&qlt=95&.v=1618007138000"
+    },
+    {
+      "id": "9",
+      "nombre": "Apple Pencil",
+      "precio": 100,
+      "imagen": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MK0C2?wid=2000&hei=2000&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1616207704000"
+    },
+    {
+      "id": "10",
+      "nombre": "Magic Mouse",
+      "precio": 100,
+      "imagen": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MLA02?wid=2000&hei=2000&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1616207704000"
+    },
+    {
+      "id": "11",
+      "nombre": "Magic Keyboard",
+      "precio": 200,
+      "imagen": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MXQT2?wid=2000&hei=2000&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1616207704000"
+    },
+    {
+      "id": "12",
+      "nombre": "Apple Card",
+      "precio": 0,
+      "imagen": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MXQT2?wid=2000&hei=2000&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1616207704000"
+    },
+    {
+      "id": "15",
+      "nombre": "Apple Fitness+",
+      "precio": 10,
+      "imagen": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MWP22?wid=2000&hei=2000&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1616207704000"
+    },
+    {
+      "id": "b220",
+      "nombre": "zapatos",
+      "precio": "85.000",
+      "imagen": "https://purr.objects-us-east-1.dream.io/i/OoNx6.jpg"
+    }
+  ]
+}
