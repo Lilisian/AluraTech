@@ -65,25 +65,25 @@ AluraGeek en Vercel
 
 Nota: Como se mencionó anteriormente, la funcionalidad de carga de productos no está disponible en la versión desplegada debido a la dependencia de la base de datos local.
 
-##Contribuciones
+## Contribuciones
 
-Si deseas contribuir al proyecto, por favor sigue estos pasos:
+- **Si deseas contribuir al proyecto, por favor sigue estos pasos:**
 
 Haz un fork del repositorio.
 
-Crea una rama para tu nueva funcionalidad o corrección de errores:
+- **Crea una rama para tu nueva funcionalidad o corrección de errores:**
 
 git checkout -b nueva-funcionalidad
 
-Realiza tus cambios y haz un commit:
+- **Realiza tus cambios y haz un commit:**
 
 git commit -m "Descripción de los cambios"
 
-Sube tus cambios a tu repositorio:
+- **Sube tus cambios a tu repositorio:**
 
 git push origin nueva-funcionalidad
 
-Crea un Pull Request explicando tus cambios.
+- **Crea un Pull Request explicando tus cambios**
 
 ##Autor
 
