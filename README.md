@@ -20,40 +20,40 @@ AluraGeek es un proyecto desarrollado con el objetivo de practicar habilidades d
 
 El proyecto incluye las siguientes funcionalidades:
 
--[GET]: Obtener la lista de productos desde la base de datos simulada.
+-**GET**: Obtener la lista de productos desde la base de datos simulada.
 
--[POST]: Agregar nuevos productos.
+-**POST**: Agregar nuevos productos.
 
--[DELETE]: Eliminar productos existentes.
+-**DELETE**: Eliminar productos existentes.
 
 ## Instalación y Configuración
 
 Dado que la base de datos es local, no es posible cargar los productos directamente desde la versión desplegada en Vercel. Para probar las funcionalidades completas, sigue estos pasos:
 
-**Clona el repositorio:**
+1. **Clona el repositorio:**
 
 git clone <url-del-repositorio>
 cd <nombre-del-repositorio>
 
-**Instala las dependencias necesarias:**
+2. **Instala las dependencias necesarias:**
 
 Asegúrate de tener Node.js instalado.
 
-**Instala JSON-Server de manera global o en el proyecto:**
+3. **Instala JSON-Server de manera global o en el proyecto:**
 
 npm install -g json-server
 
-**Ejecuta el servidor JSON:**
+4. **Ejecuta el servidor JSON:**
 
 json-server --watch db.json
 
 Esto levantará un servidor local que servirá como nuestra base de datos.
 
-**Conéctalo al proyecto:**
+5. **Conéctalo al proyecto:**
 
 Verifica que la URL de la API en el código JavaScript (normalmente http://localhost:3000) coincide con la URL del servidor JSON que acabas de iniciar.
 
-**Abre el proyecto:**
+6. **Abre el proyecto:**
 
 Puedes abrir el archivo index.html directamente en tu navegador o usar una herramienta como Live Server para un mejor flujo de desarrollo.
 
