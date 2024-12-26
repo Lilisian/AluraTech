@@ -4,17 +4,17 @@ AluraGeek es un proyecto desarrollado con el objetivo de practicar habilidades d
 
 ## Tecnologías Utilizadas
 
-- [HTML:] Estructuración del contenido web.
+- **HTML:** Estructuración del contenido web.
 
-- [CSS:] Diseño y estilos responsivos.
+- **CSS:** Diseño y estilos responsivos.
 
-- [JavaScript:] Lógica y funcionalidad del lado del cliente.
+- **JavaScript:** Lógica y funcionalidad del lado del cliente.
 
-- [Node.js:] Entorno para ejecutar código JavaScript en el servidor.
+- **Node.js:** Entorno para ejecutar código JavaScript en el servidor.
 
-- [JSON-Server:] Simulación de una API RESTful para la base de datos local.
+- **JSON-Server:** Simulación de una API RESTful para la base de datos local.
 
-- [Vercel:] Plataforma de despliegue del proyecto.
+- **Vercel:** Plataforma de despliegue del proyecto.
 
 ## Funcionalidades
 
