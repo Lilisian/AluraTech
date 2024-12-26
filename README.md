@@ -85,6 +85,6 @@ git push origin nueva-funcionalidad
 
 - **Crea un Pull Request explicando tus cambios**
 
-##Autor
+## Autor
 
 Este proyecto fue desarrollado como parte de un aprendizaje práctico. Si tienes dudas o sugerencias, no dudes en comunicarte.
